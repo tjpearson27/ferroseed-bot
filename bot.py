@@ -136,6 +136,14 @@ async def absleep(ctx):
 
 
 
+# Den hosting commands (to update Google Sheet [see gsheet_example.py])
+@client.command()
+async def hostden(ctx, str):
+        
+
+async def endden(ctx, ): 
+
+
 # Add custom commands over this
 @client.command()
 async def sleep(ctx, str):
